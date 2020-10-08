@@ -1,0 +1,21 @@
+{
+    "name": "marcoweb/simple-php-app",
+    "version": "1.0.0-dev",
+    "description": "Simple PHP Framework",
+    "type": "library",
+    "authors": [
+        {
+            "name" : "Marco Antônio Gusmão Carvalho",
+            "email" : "marcocarvalho.web@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SimplePHPApp\\" : "src//"
+        }
+    },
+    "require": {
+        "doctrine/orm": "^2.7"
+    }
+}
